@@ -29,6 +29,17 @@ Additionally, **Microsoft support for Windows 7 ended on 2020/1/14** [^1]. If yo
     - Microsoft Visual C++ 2015-2019 Redistributable [64-bit](https://aka.ms/vs/16/release/vc_redist.x64.exe) / [32-bit](https://aka.ms/vs/16/release/vc_redist.x86.exe)
     - KB3063858 [64-bit](https://www.microsoft.com/download/details.aspx?id=47442) / [32-bit](https://www.microsoft.com/download/details.aspx?id=47409)
 
+
+::: OUTDATED Method
+
+1. **Install Dependencies**
+
+    You need to install additional dependencies according to your OS version as guided [here](https://learn.microsoft.com/en-us/dotnet/core/install/windows?tabs=net80#additional-deps).
+
+    For Windows 7, the following additional dependencies are required:
+
+    - Microsoft Visual C++ 2015-2019 Redistributable [64-bit](https://aka.ms/vs/16/release/vc_redist.x64.exe) / [32-bit](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+    - KB3063858 [64-bit](https://www.microsoft.com/download/details.aspx?id=47442) / [32-bit](https://www.microsoft.com/download/details.aspx?id=47409)
 2. **Address Memory Leak Issues**
 
     .NET 7 and above runtimes cause serious memory leak issues on Windows 7. You need to run the following commands in the command prompt as an administrator to fix this:
@@ -44,6 +55,8 @@ Additionally, **Microsoft support for Windows 7 ended on 2020/1/14** [^1]. If yo
     | --- | --- |
     | [`DOTNET_GCName`](command:_github.copilot.openSymbolFromReferences?%5B%22DOTNET_GCName%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22path%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A34%2C%22character%22%3A9%7D%7D%5D%5D "Go to definition") | [`clrgc.dll`](command:_github.copilot.openSymbolFromReferences?%5B%22clrgc.dll%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22path%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A34%2C%22character%22%3A23%7D%7D%5D%5D "Go to definition") |
     | [`DOTNET_EnableWriteXorExecute`](command:_github.copilot.openSymbolFromReferences?%5B%22DOTNET_EnableWriteXorExecute%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22path%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A35%2C%22character%22%3A9%7D%7D%5D%5D "Go to definition") | [`0`](command:_github.copilot.openSymbolFromReferences?%5B%220%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22external%22%3A%22file%3A%2F%2F%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22path%22%3A%22%2FUsers%2Fquyilin%2FProjects%2Fclassisland-docs-next%2Fsrc%2Fen-us%2Fapp%2Fsetup.md%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A9%2C%22character%22%3A14%7D%7D%5D%5D "Go to definition") |
+
+:::
 
 :::
 
