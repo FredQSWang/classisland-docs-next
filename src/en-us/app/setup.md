@@ -15,6 +15,9 @@ First, ensure your device meets the following recommended requirements:
 > [!caution]
 > **Using ClassIsland on Windows 7 is not recommended.** If you insist on using ClassIsland on Windows 7, **be sure to follow the steps below** to complete the environment setup, otherwise, you may encounter **serious memory leak issues**. (ClassIsland#91)
 
+> [!caution]
+> If you previously enabled ClassIsland to run on Windows 7 by setting Environment Variables or running a Repair Tool, please follow the instructions in [this article](https://docs.classisland.tech/en-us/app/appendix/revert-win7-patching.html) to roll back the repair, as this method may cause incompatibility with some .NET Core applications.
+
 Additionally, **Microsoft support for Windows 7 ended on 2020/1/14** [^1]. If you encounter system-related issues on Windows 7, **the developers may not address them.** Some features may also be unavailable on systems below Windows 10. If you accept these limitations, please continue reading.
 
 1. **Install Dependencies**
