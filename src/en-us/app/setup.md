@@ -1,4 +1,4 @@
-# Installation and Getting Started
+# Installation & Getting Started
 
 This article will introduce how to install and start using ClassIsland.
 
