@@ -29,6 +29,9 @@ Additionally, **Microsoft support for Windows 7 ended on 2020/1/14** [^1]. If yo
     - Microsoft Visual C++ 2015-2019 Redistributable [64-bit](https://aka.ms/vs/16/release/vc_redist.x64.exe) / [32-bit](https://aka.ms/vs/16/release/vc_redist.x86.exe)
     - KB3063858 [64-bit](https://www.microsoft.com/download/details.aspx?id=47442) / [32-bit](https://www.microsoft.com/download/details.aspx?id=47409)
 
+2. Install [.NET 6 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+
+3. Go to the [ClassIsland Official Website](classisland.tech/download) to download the *Windows 7 Compatible Version* of Classisland.
 
 ::: OUTDATED Method
 
