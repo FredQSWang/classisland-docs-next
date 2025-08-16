@@ -105,6 +105,13 @@ If you download from GitHub, you can choose to download the full version or the 
 The AppCenter download channel only provides the full version.
 :::
 
+## About .NET 6 Compatible Edition
+In order for ClassIsland to run on lower versions of Windows 10, we made .NET 6 Compatible version. This compatible version will be synced from time to time with the upstream main repository. You can view the compatible version of the repository [here](https://github.com/ClassIsland/ClassIsland-net6/).
+
+The following features are not available in Compatible Version:
+
+- Plugins
+
 ## Extract the Software
 
 After downloading, extract the software package to an **independent folder (the path cannot contain Chinese characters [^2])** and run the software to start using it.
