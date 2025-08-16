@@ -13,7 +13,7 @@ First, ensure your device meets the following recommended requirements:
 ::: details Installing ClassIsland on Windows 7
 
 > [!caution]
-> **Using ClassIsland on Windows 7 is not recommended.** If you insist on using ClassIsland on Windows 7, **be sure to follow the steps below** to complete the environment setup, otherwise, you may encounter **serious memory leak issues**. ([ClassIsland#91](https://github.com/ClassIsland/ClassIsland/issues/91))
+> **Using ClassIsland on Windows 7 is not recommended.** If you insist on using ClassIsland on Windows 7, **be sure to follow the steps below** to complete the environment setup, otherwise, you may encounter **serious memory leak issues([ClassIsland#91](https://github.com/ClassIsland/ClassIsland/issues/91))**. 
 
 > [!caution]
 > If you previously enabled ClassIsland to run on Windows 7 by setting Environment Variables or running a Repair Tool, please follow the instructions in [this article](https://docs.classisland.tech/en-us/app/appendix/revert-win7-patching.html) to roll back the repair, as this method may cause incompatibility with some .NET Core applications.
@@ -27,7 +27,7 @@ Additionally, **Microsoft support for Windows 7 ended on 2020/1/14** [^1]. If yo
     For Windows 7, the following additional dependencies are required:
 
     - Microsoft Visual C++ 2015-2019 Redistributable [64-bit](https://aka.ms/vs/16/release/vc_redist.x64.exe) / [32-bit](https://aka.ms/vs/16/release/vc_redist.x86.exe)
-    - KB3063858 [64-bit](https://www.microsoft.com/download/details.aspx?id=47442) / [32-bit](https://www.microsoft.com/download/details.aspx?id=47409)
+    - Windows Update KB3063858 [64-bit](https://www.microsoft.com/download/details.aspx?id=47442) / [32-bit](https://www.microsoft.com/download/details.aspx?id=47409)
 
 2. Install [.NET 6.0.36 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
@@ -45,7 +45,7 @@ Additionally, **Microsoft support for Windows 7 ended on 2020/1/14** [^1]. If yo
     For Windows 7, the following additional dependencies are required:
 
     - Microsoft Visual C++ 2015-2019 Redistributable [64-bit](https://aka.ms/vs/16/release/vc_redist.x64.exe) / [32-bit](https://aka.ms/vs/16/release/vc_redist.x86.exe)
-    - KB3063858 [64-bit](https://www.microsoft.com/download/details.aspx?id=47442) / [32-bit](https://www.microsoft.com/download/details.aspx?id=47409)
+    - Windows Update KB3063858 [64-bit](https://www.microsoft.com/download/details.aspx?id=47442) / [32-bit](https://www.microsoft.com/download/details.aspx?id=47409)
 
 2. **Address Memory Leak Issues**
 
@@ -106,7 +106,7 @@ If you download from GitHub, you can choose to download the full version or the 
 The AppCenter download channel only provides the full version.
 :::
 
-## About .NET 6 Compatible Version
+### About .NET 6 Compatible Version
 In order for ClassIsland to run on lower versions of Windows 10, we made .NET 6 Compatible Version. This compatible version will be synced from time to time with the upstream main repository. You can view the compatible version of the repository [here](https://github.com/ClassIsland/ClassIsland-net6/).
 
 The following features are not available in Compatible Version:
