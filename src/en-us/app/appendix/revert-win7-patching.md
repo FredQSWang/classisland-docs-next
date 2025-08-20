@@ -14,6 +14,6 @@ The specific steps are as follows:
 
 2. Restart your computer
 
-3. 按照文章[安装与开始](../setup.md#检查系统需求)的方法安装 .NET 6 版本的 ClassIsland，替换原来 .NET 8 版本的 ClassIsland。只需替换 `ClassIsland.exe` ，不需要操作其它文件。
+3. Follow the instructions in the article [Installation & Getting Started](../setup.md#Check System Requirements) to install the .NET 6 Version of ClassIsland, replacing the original .NET 8 Version of ClassIsland. You only need to replace `ClassIsland.exe`; no other files need to be modified.
 
-Follow the instructions in the article [Installation & Getting Started](../setup.md#Check System Requirements) to install the .NET 6 Version of ClassIsland, replacing the original .NET 8 Version of ClassIsland. You only need to replace `ClassIsland.exe`; no other files need to be modified.
+
