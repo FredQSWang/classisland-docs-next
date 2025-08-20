@@ -19,6 +19,8 @@ The application will create a window with a semi-transparent background on the d
 When the mouse moves to the top of the main interface, the main interface will automatically reduce its opacity to ensure it does not block the content behind the window. Mouse clicks can penetrate the window to operate the content behind it.
 
 The main interface of the software will be displayed at the top of the screen by default, showing the schedule, reminders, and other information. When a course is in session, the corresponding course will expand and display a progress bar below.
+> [!warning]
+> By default, ClassIsland uses `RawInput` to receive Input Events. This approach allows ClassIsland to respond more appropriately to mouse and touch input, but it can be incompatible. If this feature doesn't work properly on your device, you can disable the "Use Raw Input" option in [【Application Settings】→【Window】](classisland://app/settings/window).
 
 In [【Application Settings】→【Window】](classisland://app/settings/window), you can adjust the docking position and window level of the main interface.
 
