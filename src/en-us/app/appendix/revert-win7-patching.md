@@ -1,8 +1,9 @@
-# Rolling Back Windows 7 Repair
+# Windows 7 Rolling Back Repair Way
 
-目前发现先前设置环境变量的方法会导致一些 .NET Core 应用无法运行，比如希沃白板。请所有之前在 Windows 7 上安装了 .NET 8 版本的 ClassIsland，并安装了内存泄漏修复补丁的用户卸载修复补丁，并安装 .NET 6 兼容版 ClassIsland。具体操作如下：
+We've discovered that the previous method of setting Environment Variables can cause some .NET Core Applications, such as Seewo Easinote, to fail. Users who previously installed the .NET 8 version of ClassIsland on Windows 7 and installed the Memory Leak Fix should uninstall the fix and install the .NET 6 Compatible Version of ClassIsland.
+The specific steps are as follows:
 
-1. 以【管理员身份】运行 Powershell，然后运行以下命令删除之前设置的环境变量：
+1. Run `Powershell` **as Administrator** and then run the following command to delete the Environment Variables you set previously:
 
     ``` powershell
     [System.Environment]::SetEnvironmentVariable("DOTNET_GCName", $null, "User")
@@ -11,6 +12,8 @@
     [System.Environment]::SetEnvironmentVariable("DOTNET_EnableWriteXorExecute", $null, "Machine")
     ```
 
-2. 重启电脑
+2. Restart your computer
 
 3. 按照文章[安装与开始](../setup.md#检查系统需求)的方法安装 .NET 6 版本的 ClassIsland，替换原来 .NET 8 版本的 ClassIsland。只需替换 `ClassIsland.exe` ，不需要操作其它文件。
+
+Follow the instructions in the article [Installation & Getting Started](../setup.md#Check System Requirements) to install the .NET 6 Version of ClassIsland, replacing the original .NET 8 Version of ClassIsland. You only need to replace `ClassIsland.exe`; no other files need to be modified.
