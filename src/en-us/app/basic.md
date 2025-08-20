@@ -55,6 +55,12 @@ Click the 【Delete】 button next to the component to delete the selected compo
 
 You can create, switch, export, and import different component configuration schemes in the upper right corner.
 
+## Course Schedule Component
+
+![1726322521451](image/basic/1726322521451.png)
+
+The course schedule displayed by default on the main interface is actually a component. You can adjust its settings in the corresponding [Component Settings](classisland://app/settings/components). Course schedule display settings can also be configured in [Additional Settings](../advanced.md#Additional-Settings).
+
 ## Additional Information
 
 By default, the application will display additional information next to the current time point (as shown in the figure).
